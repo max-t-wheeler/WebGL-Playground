@@ -25,36 +25,30 @@ export default {
     return {
       home: {
         name: 'WebGL Projects',
-        id: 'home-app',
         address: '#home',
         display: true
       },
       contents: [
         {
           name: 'OpenGL2WebGL',
-          id: 'opengl2webgl-app',
           address: '#opengl2webgl',
           display: false
         }
 /**
         {
           name: 'jQuery Art',
-          id: 'jquery-art-app',
           address: '#jquery-art'
         },
         {
           name: 'Media',
-          id: 'media-app',
           address: '#media'
         },
         {
           name: 'CV',
-          id: 'cv-app',
           address: '#cv'
         },
         {
           name: 'Contact',
-          id: 'contact-app',
           address: '#contact'
         }
 /**/

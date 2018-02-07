@@ -18,7 +18,6 @@
 import Navpane from './Navpane/Navpane';
 
 export default {
-  props: ['display'],
   name: 'OpenGL2WebGLApp',
   components: {
     'opengl2webgl-navpane': Navpane
