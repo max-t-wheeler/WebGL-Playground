@@ -1,8 +1,9 @@
 <template>
+
     <div>
       <b-navbar toggleable="md" type="dark" variant="success">
         <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-        <b-navbar-brand v-on:click="selectHome()">WebGL Projects</b-navbar-brand>
+        <b-navbar-brand v-on:click="selectHome()">{{homeContents.name}}</b-navbar-brand>
         <b-collapse is-nav id="nav_collapse">
           <b-navbar-nav>
             <b-nav-item v-for="app in appContents" :key="app.name" v-on:click="selectApp(app)">{{ app.name }}</b-nav-item>
@@ -10,6 +11,7 @@
         </b-collapse>
       </b-navbar>
     </div>
+
 </template>
 
 <script>

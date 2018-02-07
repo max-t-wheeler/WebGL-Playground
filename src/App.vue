@@ -1,12 +1,15 @@
 <template>
+
   <div>
     <app-toolbar :homeContents="home" :appContents="contents" class="toolbar"/>
     <home-page v-if="home.display" class="application"/>
     <opengl2webgl-app v-if="contents[0].display" class="application"/>
   </div>
+
 </template>
 
 <script>
+
 import Toolbar from './components/Toolbar';
 import Home from './components/Home/Home';
 import OpenGL2WebGLApp from './components/OpenGL2WebGL/OpenGL2WebGLApp';
@@ -21,7 +24,7 @@ export default {
   data () {
     return {
       home: {
-        name: 'Home',
+        name: 'WebGL Projects',
         id: 'home-app',
         address: '#home',
         display: true
@@ -59,6 +62,7 @@ export default {
     }
   }
 }
+
 </script>
 
 <style>

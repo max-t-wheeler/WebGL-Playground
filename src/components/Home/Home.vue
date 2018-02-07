@@ -1,9 +1,11 @@
 <template>
+
   <div id="home-app" >
     <div id="home-display">
         <home-canvas id="home-canvas"/>
     </div>
   </div>
+
 </template>
 
 <script>
